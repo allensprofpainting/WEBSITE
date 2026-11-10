@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painter Bayside &amp; Redlands Brisbane | Allens Professional Painting</title>
+<meta name="description" content="Allens Professional Painting — Corey Allen, Bayside &amp; Redlands painter. Wynnum, Manly, Birkdale, Wellington Point, Cleveland and surrounds. 20+ years on the tools. Text 0412 819 513 for a free in-person quote.">
+<link rel="canonical" href="https://allenspropainting.com.au/">
+<meta name="theme-color" content="#0B0B0C">
+
+<!-- Social share preview -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://allenspropainting.com.au/">
+<meta property="og:title" content="Allens Professional Painting | Bayside &amp; Redlands Painter">
+<meta property="og:description" content="Do it once. Do it right. Quality painting for Bayside &amp; Redlands homes. Text Corey on 0412 819 513 for a free in-person quote.">
+<meta property="og:image" content="https://allenspropainting.com.au/images/manly-queenslander.jpg">
+<meta property="og:locale" content="en_AU">
+
+<!-- Tells Google who you are and where you work -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HousePainter",
+  "name": "Allens Professional Painting",
+  "url": "https://allenspropainting.com.au/",
+  "image": "https://allenspropainting.com.au/images/manly-queenslander.jpg",
+  "telephone": "+61412819513",
+  "email": "allensprofpainting@gmail.com",
+  "slogan": "Do it once. Do it right.",
+  "founder": { "@type": "Person", "name": "Corey Allen" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Birkdale", "addressRegion": "QLD", "postalCode": "4159", "addressCountry": "AU" },
+  "areaServed": ["Manly","Wynnum","Birkdale","Wellington Point","Thorneside","Thornlands","Victoria Point","Cleveland"],
+  "sameAs": ["https://www.facebook.com/allenspropainting"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+<style>
+/* ===== BRAND ===== */
+:root {
+    --blue: #3399EE;        /* brand blue — buttons, accents, big type */
+    --blue-ink: #1565B0;    /* darker blue for small text on white (readable) */
+    --blue-tint: #EEF6FE;
+    --black: #0B0B0C;
+    --ink: #1B1D21;
+    --muted: #5A6270;
+    --line: #E3E7EC;
+    --paper: #FFFFFF;
+    --off: #F6F8FA;
+    --max: 1120px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+body { font-family: 'Lato', system-ui, sans-serif; color: var(--ink); background: var(--paper); line-height: 1.65; font-size: 17px; -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; }
+h1, h2, h3 { font-family: 'Playfair Display', Georgia, serif; color: var(--black); line-height: 1.12; text-wrap: balance; }
+h2 { font-size: clamp(1.9rem, 4vw, 2.7rem); margin-bottom: .8rem; }
+p { text-wrap: pretty; }
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem; }
+section { padding: 5.5rem 0; }
+.label { font-size: .78rem; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; color: var(--blue-ink); margin-bottom: .9rem; display: block; }
+.lede { color: var(--muted); max-width: 60ch; font-size: 1.05rem; }
+.head { margin-bottom: 3rem; }
+.icon { width: 1.15em; height: 1.15em; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; border-radius: 4px; }
+
+/* ===== BUTTONS ===== */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: .6rem; font-weight: 900; font-size: 1rem; text-decoration: none; padding: .95rem 1.6rem; border-radius: 6px; border: 2px solid transparent; cursor: pointer; transition: transform .15s, background .15s, border-color .15s; font-family: inherit; }
+.btn:hover { transform: translateY(-2px); }
+.btn-blue { background: var(--blue); color: var(--black); }
+.btn-blue:hover { background: #55AAF2; }
+.btn-line { border-color: var(--black); color: var(--black); background: transparent; }
+.btn-line:hover { background: var(--black); color: #fff; }
+.on-dark .btn-line { border-color: rgba(255,255,255,.5); color: #fff; }
+.on-dark .btn-line:hover { background: #fff; color: var(--black); }
+
+/* ===== NAV ===== */
+.nav { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.96); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.nav-in { display: flex; align-items: center; justify-content: space-between; height: 72px; gap: 1rem; }
+.logo { text-decoration: none; display: flex; flex-direction: column; line-height: 1; }
+.logo img { height: 54px; width: auto; }
+.logo-name { font-weight: 900; font-size: 1.2rem; color: var(--black); letter-spacing: -.01em; white-space: nowrap; }
+.logo-name b { color: var(--blue-ink); }
+.logo-sub { font-size: .66rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); margin-top: 6px; padding-top: 6px; border-top: 2px solid var(--blue); }
+.nav-links { display: flex; align-items: center; gap: 1.8rem; list-style: none; }
+.nav-links a { text-decoration: none; font-weight: 700; font-size: .92rem; }
+.nav-links a:not(.btn):hover { color: var(--blue-ink); }
+.nav-links .btn { padding: .6rem 1.1rem; font-size: .92rem; }
+.burger { display: none; background: none; border: 0; padding: 10px; cursor: pointer; }
+.burger span { display: block; width: 24px; height: 2px; background: var(--black); margin: 5px 0; transition: .25s; }
+.burger[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.burger[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.burger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* ===== HERO ===== */
+.hero { padding: 4.5rem 0 5rem; }
+.hero-in { display: grid; grid-template-columns: 1.05fr 1fr; gap: 3.5rem; align-items: center; }
+.hero h1 { font-size: clamp(2.9rem, 6.6vw, 5rem); font-weight: 900; letter-spacing: -.02em; margin-bottom: 1.4rem; }
+.hero h1 em { font-style: normal; color: var(--blue); }
+.hero p.lede { font-size: 1.15rem; margin-bottom: 2rem; }
+.cta-row { display: flex; flex-wrap: wrap; gap: .8rem; }
+.hero-note { margin-top: 1rem; font-size: .9rem; color: var(--muted); }
+.hero-pic { position: relative; }
+.hero-pic img { width: 100%; aspect-ratio: 4/3.4; object-fit: cover; border-radius: 10px; }
+.hero-pic::before { content: ''; position: absolute; inset: 18px -18px -18px 18px; background: var(--blue); border-radius: 10px; z-index: -1; }
+.hero-pic figcaption { position: absolute; left: 0; bottom: 22px; background: var(--black); color: #fff; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: .55rem 1rem; border-radius: 0 6px 6px 0; }
+
+/* ===== PROOF STRIP ===== */
+.proof { background: var(--black); color: #fff; padding: 1.6rem 0; }
+.proof ul { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+.proof li { display: flex; flex-direction: column; gap: .15rem; border-left: 3px solid var(--blue); padding-left: 1rem; }
+.proof strong { font-size: 1.05rem; }
+.proof span { font-size: .85rem; color: rgba(255,255,255,.65); }
+
+/* ===== SERVICES ===== */
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.svc { padding: 2rem 1.8rem 2.2rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: background .2s; }
+.svc:hover { background: var(--blue-tint); }
+.svc .num { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--blue-ink); margin-bottom: .9rem; display: block; }
+.svc h3 { font-size: 1.3rem; margin-bottom: .5rem; }
+.svc p { color: var(--muted); font-size: .97rem; }
+
+/* ===== WHY (about Corey) ===== */
+.why { background: var(--off); }
+.why-in { display: grid; grid-template-columns: 1fr 1.1fr; gap: 4rem; align-items: start; }
+.why blockquote { font-family: 'Playfair Display', serif; font-size: clamp(1.4rem, 2.6vw, 1.9rem); line-height: 1.3; color: var(--black); border-left: 4px solid var(--blue); padding-left: 1.4rem; margin: 1.8rem 0 1.2rem; }
+.why .sig { font-weight: 900; }
+.why .sig span { display: block; font-weight: 400; color: var(--muted); font-size: .92rem; }
+.points { list-style: none; display: grid; gap: 1.4rem; }
+.points li { display: grid; grid-template-columns: auto 1fr; gap: 1rem; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 1.3rem 1.4rem; }
+.points .tick { width: 34px; height: 34px; border-radius: 50%; background: var(--blue); color: var(--black); display: grid; place-items: center; }
+.points h3 { font-family: 'Lato', sans-serif; font-size: 1.08rem; font-weight: 900; margin-bottom: .2rem; }
+.points p { color: var(--muted); font-size: .96rem; }
+
+/* ===== PROCESS ===== */
+.steps { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.8rem; counter-reset: s; }
+.steps li { counter-increment: s; border-top: 3px solid var(--black); padding-top: 1.2rem; }
+.steps li::before { content: '0' counter(s); font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 900; color: var(--blue); display: block; line-height: 1; margin-bottom: .7rem; }
+.steps h3 { font-family: 'Lato', sans-serif; font-weight: 900; font-size: 1.1rem; margin-bottom: .3rem; }
+.steps p { color: var(--muted); font-size: .96rem; }
+
+/* ===== WORK ===== */
+.work { background: var(--off); }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: .8rem; border-radius: 10px; overflow: hidden; }
+.shot { position: relative; background: var(--line); }
+.shot img { width: 100%; height: 100%; aspect-ratio: 4/3; object-fit: cover; }
+.tag { position: absolute; left: 12px; top: 12px; font-size: .72rem; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; padding: .35rem .7rem; border-radius: 4px; background: var(--black); color: #fff; }
+.tag.after { background: var(--blue); color: var(--black); }
+.cap { font-weight: 700; margin-bottom: 2.4rem; }
+.cap span { color: var(--muted); font-weight: 400; }
+.grid-4 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: .5rem; }
+.grid-4 figure { border-radius: 10px; overflow: hidden; background: #fff; border: 1px solid var(--line); }
+.grid-4 img { width: 100%; aspect-ratio: 1/1; object-fit: cover; }
+.grid-4 figcaption { padding: .8rem 1rem; font-size: .9rem; font-weight: 700; }
+.center { text-align: center; margin-top: 2.5rem; }
+
+/* ===== REVIEWS ===== */
+.reviews { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.4rem; }
+.review { border: 1px solid var(--line); border-radius: 10px; padding: 1.8rem; display: flex; flex-direction: column; }
+.stars { color: var(--blue); letter-spacing: .15em; font-size: 1rem; margin-bottom: .9rem; }
+.review p { flex: 1; font-size: 1rem; margin-bottom: 1.2rem; }
+.review cite { font-style: normal; font-weight: 900; }
+.review cite span { display: block; font-weight: 400; color: var(--muted); font-size: .85rem; }
+
+/* ===== AREAS ===== */
+.areas { background: var(--black); color: #fff; }
+.areas h2 { color: #fff; }
+.areas .label { color: var(--blue); }
+.areas .lede { color: rgba(255,255,255,.7); }
+.chips { list-style: none; display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 2rem; }
+.chips li { border: 1px solid rgba(255,255,255,.28); border-radius: 50px; padding: .55rem 1.2rem; font-weight: 700; font-size: .98rem; }
+
+/* ===== CONTACT ===== */
+.contact-in { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+.ways { list-style: none; margin: 1.8rem 0 1.2rem; display: grid; gap: .7rem; }
+.ways a { display: flex; align-items: center; gap: .9rem; text-decoration: none; font-weight: 700; border: 1px solid var(--line); border-radius: 8px; padding: .95rem 1.2rem; transition: border-color .15s, background .15s; overflow-wrap: anywhere; }
+.ways a:hover { border-color: var(--blue); background: var(--blue-tint); }
+.ways .icon { color: var(--blue-ink); width: 1.3em; height: 1.3em; }
+.ways a.main { background: var(--blue); border-color: var(--blue); color: var(--black); font-weight: 900; font-size: 1.08rem; }
+.ways a.main .icon { color: var(--black); }
+.small { font-size: .9rem; color: var(--muted); }
+form { background: var(--off); border: 1px solid var(--line); border-radius: 12px; padding: 2rem; }
+form h3 { font-size: 1.5rem; margin-bottom: .3rem; }
+.field { margin-top: 1rem; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+label { display: block; font-size: .85rem; font-weight: 900; margin-bottom: .35rem; }
+input, select, textarea { width: 100%; font: inherit; color: var(--ink); background: #fff; border: 1.5px solid #CFD6DE; border-radius: 6px; padding: .75rem .9rem; }
+input:focus, select:focus, textarea:focus { outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px rgba(51,153,238,.2); }
+textarea { min-height: 110px; resize: vertical; }
+form .btn { width: 100%; margin-top: 1.3rem; }
+.hp { position: absolute; left: -9999px; }
+#form-msg { margin-top: 1rem; font-weight: 700; display: none; padding: .9rem 1rem; border-radius: 6px; }
+#form-msg.ok { display: block; background: var(--blue-tint); border: 1px solid var(--blue); }
+#form-msg.err { display: block; background: #FDF0EE; border: 1px solid #D9534F; }
+
+/* ===== FOOTER ===== */
+footer { background: var(--black); color: rgba(255,255,255,.7); padding: 3.5rem 0 6rem; font-size: .93rem; }
+.foot { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 3rem; padding-bottom: 2.2rem; border-bottom: 1px solid rgba(255,255,255,.12); }
+.foot h4 { color: #fff; font-size: .78rem; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 1rem; }
+.foot ul { list-style: none; display: grid; gap: .5rem; }
+.foot a { text-decoration: none; }
+.foot a:hover { color: var(--blue); }
+.foot .logo-name { color: #fff; font-size: 1.25rem; }
+.foot .tagline { font-family: 'Playfair Display', serif; color: var(--blue); font-size: 1.15rem; margin: .5rem 0 1rem; }
+.badges { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1rem; }
+.badges span { border: 1px solid rgba(255,255,255,.22); border-radius: 4px; padding: .3rem .65rem; font-size: .74rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .6rem 2rem; padding-top: 1.4rem; font-size: .82rem; color: rgba(255,255,255,.55); }
+
+/* ===== MOBILE STICKY BAR ===== */
+.bar { display: none; position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; background: var(--black); padding: .6rem; gap: .6rem; padding-bottom: calc(.6rem + env(safe-area-inset-bottom)); }
+.bar a { flex: 1; padding: .8rem; font-size: .98rem; }
+.bar .btn-line { border-color: rgba(255,255,255,.5); color: #fff; }
+
+/* ===== SCROLL REVEAL (only if JS is running) ===== */
+.js .rv { opacity: 0; transform: translateY(20px); transition: opacity .6s ease, transform .6s ease; }
+.js .rv.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .js .rv { opacity: 1; transform: none; transition: none; }
+    .btn:hover { transform: none; }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 960px) {
+    .hero-in, .why-in, .contact-in { grid-template-columns: 1fr; gap: 2.8rem; }
+    .hero-pic { margin-right: 18px; }
+    .proof ul, .steps { grid-template-columns: 1fr 1fr; }
+    .grid-3 { grid-template-columns: 1fr 1fr; }
+    .grid-4 { grid-template-columns: 1fr 1fr; }
+    .reviews { grid-template-columns: 1fr; }
+    .foot { grid-template-columns: 1fr 1fr; }
+    .foot > div:first-child { grid-column: 1 / -1; }
+}
+@media (max-width: 760px) {
+    section { padding: 3.8rem 0; }
+    .hero { padding: 2.5rem 0 3.5rem; }
+    .burger { display: block; }
+    .nav-links { display: none; position: absolute; top: 72px; left: 0; right: 0; background: #fff; flex-direction: column; align-items: stretch; gap: 0; padding: .5rem 1.5rem 1.5rem; border-bottom: 1px solid var(--line); }
+    .nav-links.open { display: flex; }
+    .nav-links a:not(.btn) { display: block; padding: .95rem 0; border-bottom: 1px solid var(--line); font-size: 1.05rem; }
+    .nav-links .btn { margin-top: 1rem; padding: .9rem; }
+    .logo img { height: 44px; }
+    .logo-name { font-size: 1.02rem; }
+    .logo-sub { font-size: .58rem; letter-spacing: .14em; }
+    .bar { display: flex; }
+    .cta-row .btn { flex: 1 1 100%; }
+}
+@media (max-width: 560px) {
+    .grid-3, .steps, .foot, .row2 { grid-template-columns: 1fr; }
+    .proof ul { gap: 1.1rem; }
+    form { padding: 1.4rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- Icon set (drawn once, reused below) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-msg" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8V6.5A1.5 1.5 0 0 1 15.5 5H17V2h-2.5A4.5 4.5 0 0 0 10 6.5V8H7v3h3v11h4V11h3l.5-3H14z"/></symbol>
+    <symbol id="i-tick" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+</svg>
+
+<!-- ===== NAV ===== -->
+<header class="nav">
+    <div class="wrap nav-in">
+        <a href="#top" class="logo" aria-label="Allens Professional Painting — home">
+            <img src="images/allens-logo.png" alt="Allens Professional Painting" width="720" height="160">
+        </a>
+        <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="menu">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why">Why Corey</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact" class="btn btn-blue">Free Quote</a></li>
+        </ul>
+    </div>
+</header>
+
+<main id="top">
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+    <div class="wrap hero-in">
+        <div>
+            <span class="label">Painter · Bayside &amp; Redlands, Brisbane</span>
+            <h1>Do it once.<br>Do it <em>right.</em></h1>
+            <p class="lede">I'm Corey Allen. I've been on the tools for over 20 years and running my own painting business since 2009. Proper prep, quality Dulux paint and a finish that lasts.</p>
+            <div class="cta-row">
+                <a class="btn btn-blue" href="sms:0412819513?&body=Hi%20Corey%2C%20I%27d%20like%20a%20quote%20for%20some%20painting.%20My%20suburb%20is%20">
+                    <svg class="icon"><use href="#i-msg"/></svg> Text Corey for a quote
+                </a>
+                <a class="btn btn-line" href="tel:0412819513">
+                    <svg class="icon"><use href="#i-phone"/></svg> 0412 819 513
+                </a>
+            </div>
+            <p class="hero-note">Free quotes, always in person. I'm usually on the tools, so a text gets the fastest reply.</p>
+        </div>
+        <figure class="hero-pic">
+            <img src="images/manly-queenslander.jpg" alt="Two-storey Queenslander in Manly with freshly painted grey weatherboards and white trims and balustrades" width="1024" height="768" fetchpriority="high">
+            <figcaption>Queenslander · Manly</figcaption>
+        </figure>
+    </div>
+</section>
+
+<!-- ===== PROOF STRIP ===== -->
+<div class="proof">
+    <div class="wrap">
+        <ul>
+            <li><strong>20+ years</strong><span>on the tools</span></li>
+            <li><strong>In business since 2009</strong><span>owner-operated</span></li>
+            <li><strong>Dulux AcraTex</strong><span>Trained Applicator</span></li>
+            <li><strong>Fully insured</strong><span>Cert III Painting &amp; Decorating</span></li>
+        </ul>
+    </div>
+</div>
+
+<!-- ===== SERVICES ===== -->
+<section id="services">
+    <div class="wrap">
+        <div class="head rv">
+            <span class="label">What I do</span>
+            <h2>Painting, done properly.</h2>
+            <p class="lede">The finish is only as good as what's underneath it. Every job gets the same prep, the same quality paint and the same care — whatever the size.</p>
+        </div>
+        <div class="grid-3 rv">
+            <article class="svc"><span class="num">01</span><h3>Interior Painting</h3><p>Walls, ceilings, trims and doors. Furniture and floors protected, surfaces properly prepped, clean sharp lines.</p></article>
+            <article class="svc"><span class="num">02</span><h3>Exterior Painting</h3><p>Weatherboards, render, fascia, eaves and trims. Bayside salt air and Queensland sun are hard on paint — the prep is what makes it last.</p></article>
+            <article class="svc"><span class="num">03</span><h3>Patch &amp; Paint Repairs</h3><p>Water-damaged ceilings, cracks, holes and cornice repairs — fixed and painted so you can't pick where the damage was.</p></article>
+            <article class="svc"><span class="num">04</span><h3>Feature Walls &amp; Texture</h3><p>Metallics, texture coatings and Dulux AcraTex finishes. A specialist skill most painters don't offer.</p></article>
+            <article class="svc"><span class="num">05</span><h3>Decks, Rails &amp; Fences</h3><p>Timber stripped back, prepared and finished to stand up to the weather — not just a coat over the top.</p></article>
+            <article class="svc"><span class="num">06</span><h3>Doors, Trims &amp; Spray Finishes</h3><p>Sprayed doors, gates and metalwork for a smooth, even finish that a brush and roller can't match.</p></article>
+        </div>
+    </div>
+</section>
+
+<!-- ===== WHY COREY ===== -->
+<section id="why" class="why">
+    <div class="wrap why-in">
+        <div class="rv">
+            <span class="label">Why Corey</span>
+            <h2>You get the bloke who quoted it.</h2>
+            <p class="lede">No crew of strangers, no subbies you've never met. I quote the job, I turn up, and I'm the one holding the brush.</p>
+            <blockquote>I may not be the cheapest painter you'll find. You're paying for the prep, the paint and the experience that make a job last.</blockquote>
+            <p class="sig">Corey Allen <span>Owner &amp; painter, Allens Professional Painting</span></p>
+        </div>
+        <ul class="points rv">
+            <li><span class="tick"><svg class="icon"><use href="#i-tick"/></svg></span><div><h3>Prep that most skip</h3><p>Washing, sanding, filling, priming. It's the part you never see and the reason the finish holds up.</p></div></li>
+            <li><span class="tick"><svg class="icon"><use href="#i-tick"/></svg></span><div><h3>Premium Dulux paint systems</h3><p>I use and recommend quality Dulux products, matched to the surface — and I'm a Dulux AcraTex Trained Applicator for texture work.</p></div></li>
+            <li><span class="tick"><svg class="icon"><use href="#i-tick"/></svg></span><div><h3>Clean, tidy, respectful</h3><p>Floors and furniture covered, site cleaned up every day, and your home left the way I'd want mine left.</p></div></li>
+            <li><span class="tick"><svg class="icon"><use href="#i-tick"/></svg></span><div><h3>Straight answers</h3><p>A clear written quote, honest timeframes, and I turn up when I say I will.</p></div></li>
+            <!-- OPTIONAL — delete this <li> if you don't want it on the site -->
+            <li><span class="tick"><svg class="icon"><use href="#i-tick"/></svg></span><div><h3>Insured and backed</h3><p>$10 million public liability cover and a 5-year workmanship warranty on my work.</p></div></li>
+        </ul>
+    </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section id="process">
+    <div class="wrap">
+        <div class="head rv">
+            <span class="label">How it works</span>
+            <h2>From first text to final coat.</h2>
+        </div>
+        <ol class="steps rv">
+            <li><h3>Send me a text</h3><p>Tell me your suburb and what needs painting. Photos help.</p></li>
+            <li><h3>I come and look</h3><p>I quote in person only. I need to see the surfaces to price it properly.</p></li>
+            <li><h3>Clear written quote</h3><p>What's included, what paint goes on, what it costs. No surprises later.</p></li>
+            <li><h3>Done once, done right</h3><p>Proper prep, quality finish, and the site left clean.</p></li>
+        </ol>
+    </div>
+</section>
+
+<!-- ===== WORK ===== -->
+<section id="work" class="work">
+    <div class="wrap">
+        <div class="head rv">
+            <span class="label">The work</span>
+            <h2>Before &amp; after.</h2>
+            <p class="lede">Real jobs, real photos. A few from over the years across South East Queensland.</p>
+        </div>
+
+        <div class="pair rv">
+            <div class="shot"><img src="images/caloundra-exterior-before.jpg" alt="Weatherboard house before repainting, with flaking and peeling paint" width="1600" height="1067" loading="lazy"><span class="tag">Before</span></div>
+            <div class="shot"><img src="images/caloundra-exterior-after.jpg" alt="The same weatherboard house after a full exterior repaint in white" width="1600" height="1067" loading="lazy"><span class="tag after">After</span></div>
+        </div>
+        <p class="cap">Weatherboard exterior repaint <span>— from flaking and weathered to a clean, solid finish.</span></p>
+
+        <div class="pair rv">
+            <div class="shot"><img src="images/bedroom-repaint-before.jpg" alt="Bedroom wall covered in a large graffiti mural before repainting" width="1600" height="1067" loading="lazy"><span class="tag">Before</span></div>
+            <div class="shot"><img src="images/bedroom-repaint-after.jpg" alt="The same bedroom after repainting, with clean neutral walls" width="1600" height="1067" loading="lazy"><span class="tag after">After</span></div>
+        </div>
+        <p class="cap">Interior repaint <span>— a full graffiti mural covered with a clean, even finish.</span></p>
+
+        <div class="grid-4 rv">
+            <figure><img src="images/big-house-after.jpg" alt="Large three-level rendered home with curved balconies after an exterior repaint" width="414" height="414" loading="lazy"><figcaption>Three-level exterior repaint</figcaption></figure>
+            <figure><img src="images/blue-white-house-after.jpg" alt="Two-storey home repainted in white with blue trim" width="414" height="414" loading="lazy"><figcaption>Two-storey exterior repaint</figcaption></figure>
+            <figure><img src="images/queenslander-after.jpg" alt="Queenslander-style home with cream weatherboards and green trim after repainting" width="414" height="414" loading="lazy"><figcaption>Queenslander exterior</figcaption></figure>
+            <figure><img src="images/gold-feature-wall.jpg" alt="Gold metallic feature wall with white trims" width="1412" height="1044" loading="lazy"><figcaption>Gold metallic feature wall</figcaption></figure>
+            <figure><img src="images/deck-handrail-after.jpg" alt="Restored timber deck handrail with a rich stained finish" width="414" height="414" loading="lazy"><figcaption>Timber handrail restoration</figcaption></figure>
+            <figure><img src="images/ken-mills-toyota-showroom.jpg" alt="Car dealership showroom exterior being repainted from scaffold" width="1600" height="1200" loading="lazy"><figcaption>Commercial showroom repaint</figcaption></figure>
+        </div>
+
+        <p class="center rv">
+            <a class="btn btn-line" href="https://www.facebook.com/allenspropainting" target="_blank" rel="noopener">
+                <svg class="icon"><use href="#i-fb"/></svg> See recent jobs on Facebook
+            </a>
+        </p>
+    </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<!-- Review text below is copied word for word from the Google listing (checked 10 Nov 2026). "…" marks where a review was shortened. -->
+<section id="reviews">
+    <div class="wrap">
+        <div class="head rv">
+            <span class="label">Reviews</span>
+            <h2>What customers say.</h2>
+        </div>
+        <div class="reviews rv">
+            <figure class="review">
+                <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <p>“Corey went above and beyond with my painting job. He has a sharp eye for detail and is happy to share his considerable knowledge and experience when it comes to colour selection and style. Thanks Corey!”</p>
+                <cite>Kay McGrath <span>Google review</span></cite>
+            </figure>
+            <figure class="review">
+                <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <p>“From start to finish, the experience was seamless. His attention to detail is truly next to none. Corey caught and fixed things I hadn’t even noticed, resulting in a flawless finish. … Corey consistently went above and beyond to ensure everything was perfect and left the workspace spotless.”</p>
+                <cite>Vinay Gopal <span>Google review</span></cite>
+            </figure>
+            <figure class="review">
+                <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <p>“Wow! Highly recommend. … He recently completed our interior painting and truly did not leave a stone unturned. From start to finish, Corey was professional, punctual, and a pleasure to work with. If you want a flawless finish and a seamless experience, he is the one to call!”</p>
+                <cite>Melissa Espejo <span>Google review</span></cite>
+            </figure>
+            <figure class="review">
+                <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <p>“He did an outstanding job with the painting of our new bathrooms, and plastering an especially tricky cornice repair that now looks completely seamless. Professional, reliable, and clearly takes great pride in his work.”</p>
+                <cite>Emma <span>Google review</span></cite>
+            </figure>
+        </div>
+        <p class="center rv"><a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&amp;query=Allens+Professional+Painting&amp;query_place_id=ChIJXcJOc6qFk2sRLIY4CN9tK-w" target="_blank" rel="noopener">Rated 5.0 on Google — read the reviews</a></p>
+    </div>
+</section>
+
+<!-- ===== SERVICE AREA ===== -->
+<section id="areas" class="areas on-dark">
+    <div class="wrap rv">
+        <span class="label">Where I work</span>
+        <h2>Local to the Bayside &amp; Redlands.</h2>
+        <p class="lede">Based in Birkdale and working across the Bayside and Redlands. Not on the list but close by? Send a text and ask.</p>
+        <ul class="chips">
+            <li>Manly</li><li>Wynnum</li><li>Birkdale</li><li>Wellington Point</li>
+            <li>Thorneside</li><li>Thornlands</li><li>Victoria Point</li><li>Cleveland</li>
+        </ul>
+    </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+    <div class="wrap contact-in">
+        <div class="rv">
+            <span class="label">Free quote</span>
+            <h2>Let's have a look at it.</h2>
+            <p class="lede">I quote in person, because a price off a photo is a guess. Text me your suburb and what you're after and I'll line up a time to come out.</p>
+            <ul class="ways">
+                <li><a class="main" href="sms:0412819513?&body=Hi%20Corey%2C%20I%27d%20like%20a%20quote%20for%20some%20painting.%20My%20suburb%20is%20"><svg class="icon"><use href="#i-msg"/></svg> Text Corey — 0412 819 513</a></li>
+                <li><a href="tel:0412819513"><svg class="icon"><use href="#i-phone"/></svg> Call 0412 819 513</a></li>
+                <li><a href="mailto:allensprofpainting@gmail.com"><svg class="icon"><use href="#i-mail"/></svg> allensprofpainting@gmail.com</a></li>
+                <li><a href="https://www.facebook.com/allenspropainting" target="_blank" rel="noopener"><svg class="icon"><use href="#i-fb"/></svg> Message on Facebook</a></li>
+            </ul>
+        </div>
+
+        <!--
+            FORM SETUP: sign up free at formspree.io, create a form, and paste your form ID
+            over REPLACE_WITH_FORMSPREE_ID below. Until then the form opens the customer's
+            email app with everything filled in, so no enquiry gets lost.
+        -->
+        <form id="quote-form" class="rv" action="https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID" method="POST">
+            <h3>Or send the details</h3>
+            <p class="small">Fill this in and I'll get back to you, usually within a day.</p>
+            <div class="row2">
+                <div class="field"><label for="name">Your name *</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+                <div class="field"><label for="phone">Mobile *</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
+            </div>
+            <div class="row2">
+                <div class="field"><label for="suburb">Suburb *</label><input id="suburb" name="suburb" type="text" autocomplete="address-level2" placeholder="e.g. Wynnum" required></div>
+                <div class="field"><label for="service">What needs painting?</label>
+                    <select id="service" name="service">
+                        <option value="">Choose one…</option>
+                        <option>Interior painting</option>
+                        <option>Exterior painting</option>
+                        <option>Patch &amp; paint repair</option>
+                        <option>Feature wall or texture</option>
+                        <option>Deck, rails or fence</option>
+                        <option>Doors, trims or spray finish</option>
+                        <option>Not sure — come and look</option>
+                    </select>
+                </div>
+            </div>
+            <div class="field"><label for="message">Tell me about the job</label><textarea id="message" name="message" placeholder="Rooms or areas, condition, colours, timing — anything that helps."></textarea></div>
+            <input type="hidden" name="_subject" value="New quote request — allenspropainting.com.au">
+            <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <button type="submit" class="btn btn-blue">Send quote request</button>
+            <p id="form-msg" role="status"></p>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <div class="wrap">
+        <div class="foot">
+            <div>
+                <span class="logo-name">Allens Professional Painting</span>
+                <p class="tagline">Do it once. Do it right.</p>
+                <p>Owner-operated painting for Bayside &amp; Redlands homes. Proper prep, premium Dulux paint, a finish that lasts.</p>
+                <div class="badges">
+                    <!-- ADD WHEN ISSUED: <span>QBCC Lic. XXXXXXX</span> -->
+                    <span>Dulux AcraTex Trained Applicator</span>
+                    <span>Cert III Painting</span>
+                    <span>Fully Insured</span>
+                </div>
+            </div>
+            <div>
+                <h4>Contact Corey</h4>
+                <ul>
+                    <li><a href="sms:0412819513">Text 0412 819 513</a></li>
+                    <li><a href="tel:0412819513">Call 0412 819 513</a></li>
+                    <li><a href="mailto:allensprofpainting@gmail.com">allensprofpainting@gmail.com</a></li>
+                    <li><a href="https://www.facebook.com/allenspropainting" target="_blank" rel="noopener">Facebook</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Service area</h4>
+                <ul>
+                    <li>Manly · Wynnum</li>
+                    <li>Birkdale · Thorneside</li>
+                    <li>Wellington Point · Cleveland</li>
+                    <li>Thornlands · Victoria Point</li>
+                </ul>
+            </div>
+        </div>
+        <div class="legal">
+            <p>© <span id="yr">2026</span> Allens Professional Painting Pty Ltd · ABN 73 655 220 812</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Sticky text/call bar — phones only -->
+<div class="bar">
+    <a class="btn btn-blue" href="sms:0412819513?&body=Hi%20Corey%2C%20I%27d%20like%20a%20quote%20for%20some%20painting.%20My%20suburb%20is%20"><svg class="icon"><use href="#i-msg"/></svg> Text Corey</a>
+    <a class="btn btn-line" href="tel:0412819513"><svg class="icon"><use href="#i-phone"/></svg> Call</a>
+</div>
+
+<script>
+document.documentElement.classList.add('js');
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+/* Mobile menu */
+const burger = document.getElementById('burger'), menu = document.getElementById('menu');
+burger.addEventListener('click', () => {
+    const open = menu.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open);
+});
+menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    menu.classList.remove('open'); burger.setAttribute('aria-expanded', 'false');
+}));
+
+/* Scroll reveal */
+const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+}), { threshold: 0.1 });
+document.querySelectorAll('.rv').forEach(el => io.observe(el));
+
+/* Quote form */
+const form = document.getElementById('quote-form'), msg = document.getElementById('form-msg');
+const say = (text, cls) => { msg.textContent = text; msg.className = cls; };
+form.addEventListener('submit', async e => {
+    e.preventDefault();
+    const d = new FormData(form);
+
+    /* Formspree not set up yet: open the customer's email app, pre-filled */
+    if (form.action.includes('REPLACE_WITH')) {
+        const body = `Name: ${d.get('name')}\nMobile: ${d.get('phone')}\nSuburb: ${d.get('suburb')}\nJob: ${d.get('service') || 'Not specified'}\n\n${d.get('message') || ''}`;
+        location.href = 'mailto:allensprofpainting@gmail.com?subject=' + encodeURIComponent('Quote request — ' + d.get('suburb')) + '&body=' + encodeURIComponent(body);
+        say('Your email app should open with the details filled in — just hit send. Or text Corey on 0412 819 513.', 'ok');
+        return;
+    }
+
+    const btn = form.querySelector('button');
+    btn.disabled = true; btn.textContent = 'Sending…';
+    try {
+        const res = await fetch(form.action, { method: 'POST', body: d, headers: { Accept: 'application/json' } });
+        if (!res.ok) throw new Error();
+        form.reset();
+        say('Got it — thanks. Corey will be in touch to line up a time to come and look.', 'ok');
+    } catch {
+        say("That didn't send. Please text or call Corey on 0412 819 513.", 'err');
+    }
+    btn.disabled = false; btn.textContent = 'Send quote request';
+});
+</script>
+</body>
+</html>
